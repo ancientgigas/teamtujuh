@@ -28,6 +28,12 @@
           font-size: 3.5rem;
         }
       }
+    
+    #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+      
     </style>
 
     <title>Support - TheNub</title>
@@ -36,7 +42,7 @@
     <!--NAV BAR START-->
     <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
       <a class="navbar-brand" href="index-in.html"><img src="assets\picture\iconthenumb.png" height="25" style="margin-top: -12px;" alt="" loading="lazy"></a>
-      <a href="#" style="color: white; margin-left:-48px; margin-right: 40px;"> Help</a>
+      <a href="index.html" style="color: white; margin-left:-48px; margin-right: 40px;"> Help</a>
       </a>
     
       <div class="collapse navbar-collapse" id="myDIV">
@@ -140,27 +146,20 @@
       <a style="font-size: x-large;">Where you can find us?</a>
       <hr class="mt-2 mb-5">
       
-      <!-- Menyisipkan library Google Maps -->
-      <script src="http://maps.googleapis.com/maps/api/js"></script>
-      
-      <script>
-          // fungsi initialize untuk mempersiapkan peta
-          function initialize() {
-          var propertiPeta = {
-              center:new google.maps.LatLng(-7.759757, 110.408866),
-              zoom:20,
-              mapTypeId:google.maps.MapTypeId.ROADMAP
-          };
-          
-          var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
-          }
-  
-          // event jendela di-load  
-          google.maps.event.addDomListener(window, 'load', initialize);
-      </script>
-    
-      <!-- Elemen yang akan menjadi kontainer peta -->
-      <div id="googleMap" style="width:100%;height:380px;"></div>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Thenub
+  var uluru = {lat: -7.759757, lng: 110.408866};
+  // The map, centered at Thenub
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Thenub
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
   
     </div>
     <!--MAPS END-->
@@ -190,5 +189,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNwCVrwpuMfbv9-BjPxpPD0sd5o2RpgL8&callback=initMap">
+    </script>
+  
   </body>
 </html>
