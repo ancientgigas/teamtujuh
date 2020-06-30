@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+    <!-- MD Bootstrap CSS-->
+    <link href="assets/MDBootstrap-Free/css/mdb.lite.min.css" rel="stylesheet">
+    
+
+    <title>Write a Mail - TheNub</title>
+  </head>
+  <body>
+    <!--PROJECT IN HERE-->
+    <!--NAV BAR START-->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="index-in.html"><img src="assets\picture\iconthenumb.png" height="25" style="margin-top: -12px;" alt="" loading="lazy"></a>
+      </a>
+    
+      <div class="collapse navbar-collapse" id="myDIV">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a button class="nav-link" href="explore.html">Explore</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i> My Profile</a>
+              <a class="dropdown-item" href="notifications.html"><i class="fas fa-bell"></i> Notifications
+              <a class="dropdown-item" href="Settings.html"><i class="fas fa-cogs"></i> Settings</a>
+              <a class="dropdown-item" href="support.html"><i class="fas fa-question-circle"></i> Support</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="custom-control custom-switch" style="margin-right: 30px;">
+          <input type="checkbox" class="custom-control-input" id="darkSwitch">
+          <label class="custom-control-label" for="darkSwitch" style="color: white;">Dark Mode</label>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm btn-light mr-my-2 my-sm-0 rounded-pill" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <!--NAV BAR END-->
+
+    <!--HEADER START-->
+    <br><br><br><br>
+    <div class="col-md-12">
+            <h2 class="display-2 text-center" style="font-size:xx-large; margin-left: 70px;"><strong>Compose a New Message</strong></h2>
+            <br>
+    </div>
+    <!--HEADER END-->
+
+    <!--MAIL FEED START-->
+    <div class="container" style="font-size: larger;">
+    <form action="#!">
+
+    <!-- Name -->
+      <label for="disabledTextInput">From : </label>
+      <input type="text" id="inputSender" class="form-control" value="alansurya147" disabled>
+      <br>
+    
+      <!-- Email -->
+    <label>To :</label>
+    <div class="input-group mb-3">
+      <input type="text" id="inputSomeone" class="form-control mb-4" placeholder="Tag someone!" maxlength="16" required>
+      <div class="input-group-append">
+        <span class="input-group-text mb-4" id="nchars1">16</span>
+      </div>
+    </div>
+
+    <!-- Subject -->
+    <label>Subject :</label>
+    <div class="input-group mb-3">
+      <input type="text" id="inputSubject" class="form-control mb-4" placeholder="Your Subject!" maxlength="60" required>
+      <div class="input-group-append">
+        <span class="input-group-text mb-4" id="nchars2">60</span>
+      </div>
+    </div>
+    </select>
+    
+    <!-- Message -->
+    <label>Message :</label>
+    <div class="input-group mb-3">
+      <textarea class="form-control" id="inputMessage" placeholder="Write your message here!" maxlength="260"></textarea>
+      <div class="input-group-append">
+        <span class="input-group-text" id="nchars3">260</span>
+      </div>
+    </div>
+
+    </br>
+    
+    <!-- Send button -->
+     <center>
+        <div class="row">
+          <div class="col-2"></div>
+            <div class="col-4">
+              <button class="btn btn-info btn-block" style="color:white; background-color: rgb(90, 90, 90);" type="submit">Preview</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-info btn-block" style="color:white; background-color: rgb(90, 90, 90);" type="submit">Send this</button>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <br>
+            <p>Or,<a href="notifications.html"> return to your message list.</a></p>
+          </div>
+          <div class="col-4"></div>
+        </div>
+      </center>
+    </form>
+  </div>
+  <!-- Default form contact -->
+  <br><br><br><br><br><br>
+  <!--MAIL FEED END-->
+
+
+    <!-- Footer-->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col text-left">
+
+        </div>
+        <div class="col text-center">
+          </br>
+          <p class="text-light"><i>©2020 - Thenub by TEAM 7</i></p>
+        </div>
+        <div class="col text-right">
+          
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/dark-mode.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/mail.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

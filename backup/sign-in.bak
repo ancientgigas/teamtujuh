@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+    <title>Login - TheNub</title>
+  </head>
+  <body>
+    <!--PROJECT IN HERE-->
+    <!--NAV BAR START-->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="picture\iconthenumb.png" height="25" alt="" loading="lazy">
+      </a>
+    
+      <div class="collapse navbar-collapse" id="myDIV">
+        <ul class="navbar-nav mr-auto"></ul>
+      </div>
+    </nav>
+    <!--NAV BAR END-->
+
+    <!--LOGIN PAGE START-->
+    <br><br><br>
+    <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card card-signin my-5">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Sign In</h5>
+                  <form class="form-signin">
+                    <div class="form-label-group">
+                      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                      <label for="inputEmail">Email address</label>
+                    </div>
+      
+                    <div class="form-label-group">
+                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                      <label for="inputPassword">Password</label>
+                    </div>
+      
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Remember password</label>
+                    </div>
+                    <a href="index.html" button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"> Sign in</a></button>
+                    <hr class="my-4">
+                    <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                    <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    <!--LOGIN PAGE END-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

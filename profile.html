@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+
+    <title>Profile - TheNub</title>
+  </head>
+  <body>
+    <!--PROJECT IN HERE-->
+    <!--NAV BAR START-->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="index-in.html"><img src="assets\picture\iconthenumb.png" height="25" style="margin-top: -12px;" alt="" loading="lazy"></a>
+      </a>
+    
+      <div class="collapse navbar-collapse" id="myDIV">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a button class="nav-link" href="explore.html">Explore</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i> My Profile</a>
+              <a class="dropdown-item" href="notifications.html"><i class="fas fa-bell"></i> Notifications</a>
+              <a class="dropdown-item" href="Settings.html"><i class="fas fa-cogs"></i> Settings</a>
+              <a class="dropdown-item" href="support.html"><i class="fas fa-question-circle"></i> Support</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+          </li>
+        </ul>
+
+        <div class="custom-control custom-switch" style="margin-right: 30px;">
+          <input type="checkbox" class="custom-control-input" id="darkSwitch">
+          <label class="custom-control-label" for="darkSwitch" style="color: white;">Dark Mode</label>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm btn-light mr-my-2 my-sm-0 rounded-pill" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <!--NAV BAR END-->
+
+    <!--HEADER START-->
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <img src="assets/picture/profile-picture-2.jpeg" class="rounded-circle mx-auto d-block shadow-lg" alt="..." width="180px" height="180px" style="margin:30px 0px; object-fit: cover; object-position:center;">
+            <h1 class="font-weight-normal" style="color: white;">Alan Suryajana, M.Kom, Ph.D.</h1>
+            <p class="lead" style="color: white;">Freelancer - Writer - Photographer</p>
+            <br>
+            <h3 class="text-light"><span class="badge badge-light rounded-pill" style="padding: 12px;">100 </span><small> Following</small> | 
+                <span class="badge badge-dark rounded-pill" style="padding: 12px;">1.927 </span><small> Follower</small></h3>
+          </div>
+            <div class="col-12 text-center">
+              <center>
+                <a href="#"><button type="button" class="btn btn-light rounded-pill"><i class="fas fa-user-edit"></i> Edit Profile</button></a>
+                <button type="button" class="btn btn-secondary btn-light rounded-pill" id="btnCreation"><i class="fas fa-image"></i> Creation</button>
+                <button type="button" class="btn btn-secondary btn-light rounded-pill" id="btnAlbum"><i class="fas fa-images"></i> Album</button>
+                <button type="button" class="btn btn-secondary btn-light rounded-pill" id="btnProfile"><i class="fas fa-address-card"></i> Profile</button>
+                <button type="button" class="btn btn-secondary btn-light rounded-pill" id="btnReport"><i class="fas fa-exclamation-circle"></i></button>
+              </center>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--PROFILE FEED START-->
+    <!-- Page Content -->
+<div class="container">
+  
+  <!-- Page Heading -->
+  <div id="creation">
+    <h1 class="my-4">
+      <small>Creation</small>
+    </h1>
+  
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">1st Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">2nd Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">3rd Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">4th Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">5th Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">6th Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">7th Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">8th Photo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="album">
+    <h1 class="my-4">
+      <small>Album</small>
+    </h1>
+  
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Portrait Collection</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Beach Album</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Train's Collection</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Mt. Lawu Collection</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Malioboro Street</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Bali Album</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Landscape Collection</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Wedding Photo Album</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <center>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary rounded-pill">View</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="profile">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <h1 class="my-4">
+          <small>Profile</small>
+        </h1>
+        <strong>Full Name    :</strong><p><a>Alan Suryajana, M.Kom, Ph. D</a></p>
+        <strong>Email        :</strong><p><a href="#">alansur147@gmail.com</a></p>
+        <strong>Address      :</strong><p><a>Pasar Minggu, No. 78, Jakarta Selatan, DKI Jakarta</a></p>
+        <strong>Description  :</strong><p><a>I'm a Freelancer, Writer and Photographer. Love to share my work to the world.</a></p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+</div>
+
+</br></br>
+    <!--PROFILE FEED END-->
+
+
+    <!-- Footer-->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col text-left">
+
+        </div>
+        <div class="col text-center">
+          </br>
+          <p class="text-light"><i>©2020 - Thenub by TEAM 7</i></p>
+        </div>
+        <div class="col text-right">
+          
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

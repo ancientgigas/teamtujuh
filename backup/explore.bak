@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+
+    <!-- Sidebar all needed-->
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/sidebar.css">
+
+    <title>TheNub - Explore</title>
+  </head>
+  <body>
+    <!--PROJECT IN HERE-->
+    <!--NAV BAR START-->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html"><img src="picture\iconthenumb.png" height="25" alt="" loading="lazy">
+      </a>
+    
+      <div class="collapse navbar-collapse" id="myDIV">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a button class="nav-link" href="explore.html">Explore</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i> My Profile</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-cogs"></i> Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="landing-page.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm btn-light mr-my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <!--NAV BAR END-->
+
+    <!--PAGE CONTENT START-->
+    <br><br></br>
+    <div class="container">
+    </br></br>
+      <label>Categories : </label>
+      <button type="button" class="btn btn-light">Street</button>
+      <button type="button" class="btn btn-light">Landscape</button>
+      <button type="button" class="btn btn-light">Portrait</button>
+      <button type="button" class="btn btn-light">Negative Space</button>
+      <button type="button" class="btn btn-light">Building</button>
+      <button type="button" class="btn btn-light">Macro</button>
+  </br>
+
+      <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Landscape</h1>
+
+      <hr class="mt-2 mb-5">
+    
+      <div class="row text-center text-lg-left">
+    
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+              </a>
+        </div>
+      </div>
+      <center><button class="btn btn-sm btn-light" type="button"><i class="fas fa-caret-down"></i> More</button></center>
+    </div>
+    
+  </br>
+
+    <div class="container">
+
+      <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">City</h1>
+    
+      <hr class="mt-2 mb-5">
+    
+      <div class="row text-center text-lg-left">
+    
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+              </a>
+        </div>
+      </div>
+      <center><button class="btn btn-sm btn-light" type="button"><i class="fas fa-caret-down"></i> More</button></center>
+    </div>
+
+  </br>
+
+    <div class="container">
+      <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Gallery</h1>
+      <hr class="mt-2 mb-5">
+      <div class="row text-center text-lg-left">
+    
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+              </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+              </a>
+        </div>
+      </div>
+      <center><button class="btn btn-sm btn-light" type="button"><i class="fas fa-caret-down"></i> More</button></center>
+    </div>
+  </br></br>
+    <!--PAGE CONTENT END-->
+
+    <!-- Footer-->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col text-left">
+
+        </div>
+        <div class="col text-center">
+          </br>
+          <p class="text-light"><i>©2020 - Thenub by TEAM 7</i></p>
+        </div>
+        <div class="col text-right">
+          
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/* Background Image */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://wallpaperplay.com/walls/full/2/b/7/122890.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Style the buttons */
+  .btn {
+      border: none;
+      outline: none;
+      padding: 10px 16px;
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+    
+    /* Style the active class (and buttons on mouse-over) */
+    .active, .btn:hover {
+      background-color: #666;
+      color: white;
+    }

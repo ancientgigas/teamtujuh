@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <!-- Bootstrap FontAwesome -->
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+
+    
+
+    <title>Notifications - TheNub</title>
+  </head>
+  <body>
+    <!--PROJECT IN HERE-->
+    <!--NAV BAR START-->
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="index-in.html"><img src="assets\picture\iconthenumb.png" height="25" style="margin-top: -12px;" alt="" loading="lazy"></a>
+      </a>
+    
+      <div class="collapse navbar-collapse" id="myDIV">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a button class="nav-link" href="explore.html">Explore</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i> My Profile</a>
+              <a class="dropdown-item" href="notifications.html"><i class="fas fa-bell"></i> Notifications
+              <a class="dropdown-item" href="Settings.html"><i class="fas fa-cogs"></i> Settings</a>
+              <a class="dropdown-item" href="support.html"><i class="fas fa-question-circle"></i> Support</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+          </li>
+        </ul>
+
+        <div class="custom-control custom-switch" style="margin-right: 30px;">
+          <input type="checkbox" class="custom-control-input" id="darkSwitch">
+          <label class="custom-control-label" for="darkSwitch" style="color: white;">Dark Mode</label>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm btn-light mr-my-2 my-sm-0 rounded-pill" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <!--NAV BAR END-->
+
+    <!--HEADER START-->
+    <br><br><br><br>
+    <div class="col-md-12">
+            <h2 class="display-2 text-center" style="font-size:xx-large; margin-left: 70px;">Notifications & Mail</h2>
+            <br>
+    </div>
+    <!--HEADER END-->
+
+    <!--NOTIFICATIONS FEED START-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                      aria-selected="true">Your Inbox</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                     aria-selected="false">Your Notification</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                     aria-selected="false">Your Sent Mail</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <a href="mail.html"><button type="button" class="btn-outline-dark rounded"><i class="fas fa-pen"></i> Compose a New Message </button></a>
+            </div>
+        </div>
+        <div class="tab-content" id="myTabContent">
+          
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="inbox-tab">
+            
+            </br>
+            <div class="row">
+
+              <div class="col-3">
+                <div class="btn-group-vertical">
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-1-1" class="btn btn-outline-dark text-left block">Message from John71</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-9">
+                <div class="container btn-light rounded" id="c-1-1" style="padding:15px;">
+                  <h3>Message from John71</h3>
+                  <p><small>From : John71</small></p>
+                  <p>Your "Malioboro Street View" was great. I love it. Can i buy this photo? can't wait your reply!</p>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade container-fluid" id="profile" role="tabpanel" aria-labelledby="notification-tab">
+            
+            </br>
+            <div class="row">
+
+              <div class="col-3">
+                <div class="btn-group-vertical">
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-0-1" class="btn btn-outline-dark text-left block">Your Pict is Featured !</button>
+                  </div>
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-0-2" class="btn btn-outline-dark text-left block">Post more Creations !</button>
+                  </div>
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-0-3" class="btn btn-outline-dark text-left block">Your Account Verified</button>
+                  </div>
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-0-4" class="btn btn-outline-dark text-left block">Welcome to Thenub !</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-9">
+                <div class="container btn-light rounded" id="c-0-1" style="padding:15px;">
+                  <h3>Your Pict is Featured !</h3>
+                  <p><small>From : Thenub Admin</small></p>
+                  <p>Your photo is picked by our editor and displayed at our fornt page. Keep up your great work and get more follower!</p>
+                </div>
+                <div class="container btn-light rounded" id="c-0-2" style="padding:15px;">
+                  <h3>Post more Creations !</h3>
+                  <p><small>From : Thenub Admin</small></p>
+                  <p>Congratulation! Your Creation is attract lot of views. Keep it up! Create more creations and upload to Thenub and get more follower!</p>
+                </div>
+                <div class="container btn-light rounded" id="c-0-3" style="padding:15px;">
+                  <h3>Your Account Verified</h3>
+                  <p><small>From : Thenub Admin</small></p>
+                  <p>Congratulation! Your account is verified by our system. Start your Thenub by upload your original creation.</p>  
+                </div>
+                <div class="container btn-light rounded" id="c-0-4" style="padding:15px;">
+                  <h3>Welcome to Thenub !</h3>
+                  <p><small>From : Thenub Admin</small></p>
+                  <p>Congratulation! Your account has beed created. Verify your account and start uploading your original creation.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="mail-tab">
+            </br>
+            <div class="row">
+
+            <div class="col-3">
+                <div class="btn-group-vertical">
+                  <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-dark" disabled><i class="fas fa-info-circle"></i></button>
+                    <button type="button" id="b-2-1" class="btn btn-outline-dark text-left block">...</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-9">
+                <div class="container btn-light rounded" id="c-2-1" style="padding:15px;">
+                  <h3>...</h3>
+                  <p><small>From : ...</small></p>
+                  <p>...</p>
+                </div>
+              </div>
+            
+            </div>   
+          </div>
+
+        </div>
+    <!--NOTIFICATIONS FEED END-->
+
+
+    <!-- Footer-->
+    <div class="container-fluid bg-dark fixed-bottom">
+      <div class="row">
+        <div class="col text-left">
+        </div>
+        <div class="col text-center">
+          </br>
+          <p class="text-light"><i>©2020 - Thenub by TEAM 7</i></p>
+        </div>
+        <div class="col text-right">    
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/notification.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+     <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+</body>
+</html>
